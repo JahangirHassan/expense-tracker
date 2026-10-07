@@ -65,7 +65,7 @@ export default function LoginPage() {
           </div>
           <h1 className="text-2xl font-bold text-slate-100">Welcome Back</h1>
           <p className="text-xs text-slate-400 mt-1">
-            Sign in to access your secure financial tracker
+            Sign-in to access your secure financial tracker
           </p>
         </div>
 
