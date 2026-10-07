@@ -111,6 +111,7 @@ export type IncomeFormData = z.infer<typeof incomeSchema>;
 
 // ============ BUDGET ============
 
+
 export const budgetSchema = z.object({
   // NOTE: confirm actual Budget model field — using "name" based on
   // budgetObj.name usage seen in budget.controller.ts. Change back to
@@ -134,6 +135,7 @@ export const budgetSchema = z.object({
 export type BudgetFormData = z.infer<typeof budgetSchema>;
 
 // ============ RECEIPT CONFIRM ============
+
 
 export const receiptConfirmSchema = z.object({
   amount: z.coerce
